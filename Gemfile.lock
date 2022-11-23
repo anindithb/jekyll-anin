@@ -88,6 +88,7 @@ GEM
       html-pipeline (~> 1.9)
       jekyll (>= 4.0)
     kramdown (2.4.0)
+      rexml (>=3.2.5)
     liquid (2.6.2)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
