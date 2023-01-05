@@ -1,7 +1,7 @@
 
 
 output: web
-# this property is useful for conditional filtering of content that is separate from the PDF.
+# thisgvgg property is useful for conditional filtering of content that is separate from the PDF.
 
 topnav_title: Jekyll Documentation Theme
 # this appears on the top navigation bar next to the home button
