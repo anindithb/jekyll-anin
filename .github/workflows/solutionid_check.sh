@@ -3,8 +3,8 @@
 #set -e
 export SOLUTIONID="SO952"
 
-echo "grep -nr --exclude-dir='.codecatalyst' "${SOLUTIONID}" ./.."
-result=$(grep -nr --exclude-dir='.codecatalyst' "${SOLUTIONID}" ./..)
+echo "grep -nr --exclude-dir='.github' "${SOLUTIONID}" ./.."
+result=$(grep -nr --exclude-dir='.github' "${SOLUTIONID}" ./..)
 if [ $? -eq 0 ]
 then
   echo "Solution ID ${SOLUTIONID} found\n"
