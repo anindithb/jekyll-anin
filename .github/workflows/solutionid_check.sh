@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #set -e
-export SOLUTIONID="SO9520"
+export SOLUTIONID="SO952"
 
 echo "grep -nr --exclude-dir='.codecatalyst' "${SOLUTIONID}" ./.."
 result=$(grep -nr --exclude-dir='.codecatalyst' "${SOLUTIONID}" ./..)
